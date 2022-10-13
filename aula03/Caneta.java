@@ -20,7 +20,7 @@ public class Caneta {
     public void setPonta(float p){
         this.ponta = p;
     }
-    public Caneta(String m ){
+    public Caneta(String m ){ //método construtor
         this.modelo = m;
         this.ponta = 0.3f;
     }
