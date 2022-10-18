@@ -20,7 +20,7 @@ public class Main {
         c2.pagarMensal();
         c2.sacar(430);
         c2.fecharConta();
-        
+
 
         c1.Estado();
         c2.Estado();
