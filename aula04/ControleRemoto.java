@@ -12,7 +12,6 @@ public class ControleRemoto implements Controler {
         this.setLigado(false);
 
     }
-
     //Métodos especiais
     private int getVolume() {
         return volume;
