@@ -1,4 +1,4 @@
-package aula05;
+package projetinho02;
 
 public class Lutador {
     //atributos
@@ -15,13 +15,12 @@ public class Lutador {
     //método construtor
 
 
-    public Lutador(String nome, String nacionalidade, int idade, float altura, float peso, String categoria, int vitorias, int derrotas, int empates) {
+    public Lutador(String nome, String nacionalidade, int idade, float altura, float peso, int vitorias, int derrotas, int empates) {
         this.nome = nome;
         this.nacionalidade = nacionalidade;
         this.idade = idade;
         this.altura = altura;
         this.setPeso(peso);
-        this.categoria = categoria;
         this.vitorias = vitorias;
         this.derrotas = derrotas;
         this.empates = empates;
@@ -32,11 +31,19 @@ public class Lutador {
         System.out.println("Lutador: " + this.getNome());
         System.out.println("Origem: " + this.getNacionalidade());
         System.out.println(this.getIdade() + " anos");
-        System.out.println("Altura");
+        System.out.println(this.getAltura() + " m");
+        System.out.println("Peso: " + this.getPeso() + " kg");
+        System.out.println("Nº Vitórias: " + this.getVitorias());
+        System.out.println("Nº Derrotas: " + this.getDerrotas());
+        System.out.println("Nº Empates: " + this.getEmpates());
     }
 
     public void status(){
-
+        System.out.println(this.getNome());
+        System.out.println("peso: "  + this.getCategoria());
+        System.out.println("Vitórias: " + this.getVitorias());
+        System.out.println("Derrotas: " + this.getDerrotas());
+        System.out.println("Empates: " + this.getEmpates());
     }
 
     public void ganharLuta(){
@@ -98,17 +105,17 @@ public class Lutador {
         return categoria;
     }
 
-    public void setCategoria(String categoria) {
+    private void setCategoria(String categoria) {
         if (this.getPeso() < 52.2){
-            this.setCategoria("inválido");
+            this.categoria = "inválido";
         } else if (this.getPeso() <= 70.3){
-            this.setCategoria("Leve");
+            this.categoria ="Leve";
         } else if(this.getPeso() <= 83.9){
-            this.setCategoria("Médio");
+            this.categoria = "Médio";
         } else if(this.getPeso() <= 120.2){
-            this.setCategoria("pesado");
+            this.categoria ="pesado";
         } else{
-            this.setCategoria("Inválido");
+            this.categoria = "Inválido";
         }
     }
 
