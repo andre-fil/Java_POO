@@ -92,7 +92,12 @@ public class Livro implements Publicacao{
 
     @Override
     public void folhear(int pag) {
-        setPagatual(pag);
+        if (pag > this.getTotpag()){
+            System.out.println("Não foi possível abrir nessa página");
+            setPagatual(0);
+        } else{
+            setPagatual(pag);
+        }
     }
 
     @Override
