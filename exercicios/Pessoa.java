@@ -5,6 +5,14 @@ public class Pessoa {
     private int idade;
     private String sexo;
 
+    // contrutor
+
+    public Pessoa(String nome, int idade, String sexo){
+        this.nome = nome;
+        this.idade = idade;
+        this.sexo = sexo;
+    }
+
     //m[etodos especiais
 
     public String getNome() {
@@ -32,6 +40,8 @@ public class Pessoa {
     }
 
     //others métodos
-    public void fazerAniver(){}
+    public void fazerAniver(){
+        this.setIdade(this.getIdade() + 1);
+    }
 
 }
