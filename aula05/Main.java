@@ -19,7 +19,7 @@ public class Main {
         p4.setSetor("Banco de Dados");
         p3.setEspecialidade("Mídias");
         //poderíamos setar mais coisa
-        
+
         System.out.println(p1.toString());
         System.out.println(p2.toString());
         System.out.println(p3.toString());

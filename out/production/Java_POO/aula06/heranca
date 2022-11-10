@@ -1,0 +1,18 @@
+Tipos de herança
+    1- Herança de implementação
+        *A classe filha tem atributos e métodos próprios, além dos herdados
+    2- Herança para diferença
+        *A classe filha herda apenas os aributos da classe mãe, não possui nenhum atributo ou método próprio
+
+
+
+* É possível sobrepor um método da classe mãe na classe filha (@override) *polimorfismo
+
+
+*Classe abstrata --> Não pode ser instanciada. ( Apenas herdada)
+
+*Método abstrato --> Declarado, mas não implementado na progenitora
+
+*Classe final --> Não pode ser herdada por outra classe
+
+*Método final --> Não pode ser sobrescrito
