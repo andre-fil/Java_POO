@@ -1,0 +1,6 @@
+Polimorfismo -- herdar comportamentos
+
+Assinatura do Método --> Quantidade e tipo dos parâmetros (se houver)
+
+
+ Sobreposição --> sobrepo um método da classe mãe ( usando a mesma assinatura)
