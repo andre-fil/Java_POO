@@ -3,4 +3,10 @@ Polimorfismo -- herdar comportamentos
 Assinatura do Método --> Quantidade e tipo dos parâmetros (se houver)
 
 
- Sobreposição --> sobrepor um método da classe mãe ( usando a mesma assinatura)
+ Polimorfismo de Sobreposição --> sobrepor um método da classe mãe ( usando a mesma assinatura)
+    Diferentes classe, Mesma assinatura
+
+
+ Polimorfismo de sobrecarga --> vários métodos com o mesmo nome e assinaturas diferentes dentro da mesma classe
+    várias formas de fazer algo
+    Mesma classe, Diferente assinatura
